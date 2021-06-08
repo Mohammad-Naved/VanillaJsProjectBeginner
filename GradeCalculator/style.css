@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(54, 50, 50);
+  padding: 3%;
+  color: whitesmoke;
+}
+.main-heading {
+  text-align: center;
+  padding-bottom: 2%;
+}
+.result {
+  background-color: red;
+  padding: 4%;
+}
+.input-con {
+  background-color: blue;
+  padding: 4%;
+}
+.form-group {
+  padding: 10px;
+}
+.submit-btn {
+  background-color: rgb(54, 50, 50);
+  color: whitesmoke;
+}
+.pass {
+  background-color: white;
+  color: black;
+}
