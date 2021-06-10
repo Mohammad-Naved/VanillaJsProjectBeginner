@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-heading {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Tangerine", serif;
+  font-weight: 900;
+  font-size: 58px;
+}
+.addTask {
+  padding-top: 20px;
+}
+.fas {
+  padding: 8px;
+}
+ul .item {
+  font-weight: 600;
+  margin-top: 20px !important;
+  border: 2px solid black !important;
+}
+ul .completed {
+  color: rgba(0, 0, 0, 0.596);
+  text-decoration: line-through;
+}
+
+@media only screen and (max-width: 600px) {
+  #sortItem {
+    margin-bottom: 8px;
+  }
+}
+
+.row:nth-child(even) {
+  background-color: gray;
+}
